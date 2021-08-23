@@ -9,7 +9,7 @@ public class Main {
     public static void main(String args[]){
         {
             try {
-                File file = new File("./src/input.txt");
+                File file = new File("/home/harshitv-l/Documents/Automatic Parking System/input.txt");
                 Scanner sc = new Scanner(file);
                 while (sc.hasNextLine()) {
                     String str = sc.nextLine();
